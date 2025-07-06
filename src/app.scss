@@ -1,5 +1,88 @@
 // app.scss
 
-$primary: #ff69b4;
-
 @use 'bulma/bulma';
+
+// Colour Setup
+$dark-moss-green: #4A5B2B;
+$isabelline: #F5F3EF;
+$onyx: #3D3D3D;
+$ash-gray: #CAD2C5;
+$timberwolf: #DAD7CD;
+$accent: #ffdd57; //This one doesnt have anything in the Bulma colour system
+
+$primary: $dark-moss-green;
+$light: $isabelline;
+$dark: $onyx;
+$info: $ash-gray;
+$background: $timberwolf;
+
+// Font Setup
+$body-font: 'Inter', sans-serif;
+$heading-font: 'Playfair Display', serif;
+
+body {
+  font-family: $body-font;
+  background-color: $background;
+  color: $onyx;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $heading-font;
+  color: $primary;
+}
+
+
+//Added for convenience throughout the pages
+.hero {
+	background-color: $primary;
+	color: white;
+	padding: 4rem 2rem;
+	text-align: center;
+
+	.hero-content {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+}
+
+.intro-section {
+	background-color: $light;
+	padding: 3rem 2rem;
+
+	.intro-grid {
+		display: grid;
+		grid-template-columns: 1fr 2fr;
+		gap: 2rem;
+		align-items: center;
+	}
+
+	.intro-text {
+		h2 {
+			font-family: $heading-font;
+			font-size: 2rem;
+			margin-bottom: 1rem;
+			color: $primary;
+		}
+		p {
+			font-family: $body-font;
+			font-size: 1.1rem;
+			color: $dark;
+		}
+	}
+
+	//this is for the home pages body and footer matching up to remove the gap
+	html,
+	body {
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+	}
+
+	main {
+		flex: 1;
+	}
+
+}
