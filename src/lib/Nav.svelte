@@ -1,58 +1,62 @@
 <script>
 	import { List, X } from 'phosphor-svelte';
+
 	let isMenuOpen = false;
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
+
+	function closeMenu() {
+		isMenuOpen = false;
+	}
 </script>
 
 <nav class="navbar is-light" role="navigation" aria-label="main navigation">
 	<div class="navbar-container">
-		<!-- Left-aligned logo -->
-		<a class="navbar-item logo" href="/">
-			<img src="/saraLoxtonLogo.png" alt="Sara Loxton Logo" class="logo-image" />
+		<!-- Logo links to home -->
+		<a class="navbar-item logo" href="/" on:click={closeMenu}>
+			<img src="/saraLoxtonLogoUpdated.png" alt="Sara Loxton Logo" class="logo-image" />
 		</a>
-
 
 		<!-- Desktop nav links (hidden on mobile) -->
 		<div class="navbar-links is-hidden-touch">
+			<a class="navbar-item" href="/">Home</a>
 			<a class="navbar-item" href="/projects">Projects</a>
 			<a class="navbar-item" href="/blog">Blog</a>
 			<a class="navbar-item" href="/resume">Resume/Certificates</a>
 		</div>
 
-		<!-- Mobile burger icon -->
+		<!-- Mobile burger icon (hidden on desktop) -->
 		<button
 			class="icon-toggle is-hidden-desktop"
 			on:click={toggleMenu}
 			aria-label="menu toggle">
 			{#if isMenuOpen}
-				<X size="24" color="var(--accent)" />
+				<X size="24" color="var(--onyx)" />
 			{:else}
 				<List size="24" color="var(--onyx)" />
 			{/if}
 		</button>
 	</div>
 
-	<!-- Dropdown nav for mobile -->
+	<!-- Mobile dropdown nav -->
 	{#if isMenuOpen}
 		<div class="mobile-menu is-hidden-desktop">
-			<a class="navbar-item" href="/projects">Projects</a>
-			<a class="navbar-item" href="/blog">Blog</a>
-			<a class="navbar-item" href="/resume">Resume/Certificates</a>
+			<a class="navbar-item" href="/" on:click={closeMenu}>Home</a>
+			<a class="navbar-item" href="/projects" on:click={closeMenu}>Projects</a>
+			<a class="navbar-item" href="/blog" on:click={closeMenu}>Blog</a>
+			<a class="navbar-item" href="/resume" on:click={closeMenu}>Resume/Certificates</a>
 		</div>
 	{/if}
 </nav>
 
-
-
 <style lang="scss">
 	.logo-image {
-		height: 50rem;
+		height: 3rem;
+		width: auto;
 		object-fit: contain;
 	}
-
 
 	.navbar {
 		background-color: $secondary;

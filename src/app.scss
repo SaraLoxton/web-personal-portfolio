@@ -84,5 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 	main {
 		flex: 1;
 	}
+}
 
+.navbar-item.is-active {
+  border-bottom: 2px solid $primary; // or your accent colour
 }
