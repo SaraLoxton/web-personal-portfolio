@@ -1,25 +1,23 @@
 <script>
-	import Nav from "../../lib/Nav.svelte";
-	import Footer from "../../lib/Footer.svelte";
 
 	const posts = [
 		{
-			title: "Understanding NDVI for Remote Sensing",
+			title: "My Second Year in GIS: What I Learned, Built, and Discovered",
 			summary:
-				"A beginner-friendly explanation of NDVI, how it works, and how to interpret vegetation health using satellite imagery.",
-			category: "Remote Sensing",
+				"A deep dive into what I learnt, the skills I developed, and where I am going with my skills into the future.",
+			category: "GIS & Spatial Analysis",
 			date: "March 2025",
 			readTime: "6 min read",
-			link: "#"
+			link: "/blog/gis_second_year"
 		},
 		{
-			title: "Building My First Svelte App",
+			title: "Building My First Svelte Website",
 			summary:
-				"A walkthrough of the development process behind my Flat Finder app, from wireframes to a fully functional UI.",
-			category: "Web Development",
-			date: "April 2025",
-			readTime: "8 min read",
-			link: "#"
+				"A walkthrough of the development process behind my Personal Portfolio, from wireframes to a fully functional code.",
+			category: "Website Development",
+			date: "November 2025",
+			readTime: "5 min read",
+			link: "/blog/first_svelte"
 		},
 		{
 			title: "Data Storytelling with Power BI",

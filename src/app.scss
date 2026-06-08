@@ -1,20 +1,12 @@
 // app.scss
 
 @use 'bulma/bulma';
-
-// Colour Setup
-$dark-moss-green: #4A5B2B;
-$isabelline: #F5F3EF;
-$onyx: #3D3D3D;
-$ash-gray: #CAD2C5;
-$timberwolf: #DAD7CD;
-$accent: #ffdd57; //This one doesnt have anything in the Bulma colour system
-
-$primary: $dark-moss-green;
-$light: $isabelline;
-$dark: $onyx;
-$info: $ash-gray;
-$background: $timberwolf;
+// colour setup
+$primary: #4A5B2B;;
+$light: #F5F3EF;
+$dark: #3D3D3D;
+$info: #CAD2C5;
+$background: #DAD7CD;
 
 // Font Setup
 $body-font: 'Inter', sans-serif;
@@ -23,7 +15,7 @@ $heading-font: 'Playfair Display', serif;
 body {
   font-family: $body-font;
   background-color: $background;
-  color: $onyx;
+  color: $light;
   margin: 0;
 }
 
