@@ -22,11 +22,16 @@
 
 		<!-- Desktop nav links (hidden on mobile) -->
 		<div class="navbar-links is-hidden-touch">
-			<a class="navbar-item" href="/"><section>0.</section>ABOUT  <sectionTwo> | </sectionTwo></a>
+			<a class="navbar-item" href="/"><section>0.</section>ABOUT</a>
+			<h1>|</h1>
 			<a class="navbar-item" href="/projects"><section>1.</section>SKILLS</a>
+			<h1>|</h1>
 			<a class="navbar-item" href="/blog"><section>2.</section>WORK</a>
+			<h1>|</h1>
 			<a class="navbar-item" href="/resume"><section>3.</section>PROJECTS</a>
+			<h1>|</h1>
 			<a class="navbar-item" href="/resume"><section>4.</section>CONTACT</a>
+			<h1>|</h1>
 			<a class="navbar-item" href="/resume"><section>5.</section>RESUME</a>
 		</div>
 
