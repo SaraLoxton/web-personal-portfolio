@@ -6,7 +6,7 @@
   <div class="container">
     <SectionHeading
       eyebrow="About"
-      title="A spatial thinker with a practical, people-focused approach"
+      title="Making practical, people-focused approachs to a spatial thinking."
       description="I’m interested in how maps, data, and digital tools can support clearer decisions in environmental, rural, and community settings."
     />
 
@@ -14,7 +14,7 @@
       <article class="about__card">
         <h3>Who I am</h3>
         <p>
-          I’m a Spatial Data Science student at the University of Canterbury with a growing focus
+          I’m a Spatial Data Science third year student at the University of Canterbury with a growing focus
           on GIS, geospatial analysis, data systems, and purposeful digital design.
         </p>
       </article>
@@ -22,8 +22,8 @@
       <article class="about__card">
         <h3>What I build</h3>
         <p>
-          My work spans mapping, remote sensing, data workflows, and front-end development —
-          especially projects that make technical information easier to understand and use.
+          My work spans mapping, remote sensing, data workflows, and front-end development (Including this website).
+          I especially love projects that make technical information easier to understand and use.
         </p>
       </article>
 
@@ -32,6 +32,7 @@
         <p>
           Raised in the Mackenzie Basin, I’m especially drawn to projects connected to land,
           environment, rural systems, and local communities.
+          "Takes villagers to become a Village" is my favourite quote that embodies this.
         </p>
       </article>
     </div>
