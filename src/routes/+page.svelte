@@ -17,8 +17,8 @@
 <div class="home-page">
   <Hero />
   <AboutPreview />
-  <FeaturedProjects />
   <Skills />
+  <FeaturedProjects />
   <ContactCTA />
 </div>
 

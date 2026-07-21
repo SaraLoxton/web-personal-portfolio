@@ -26,13 +26,11 @@
 			<h1>|</h1>
 			<a class="navbar-item" href="/projects"><section>1.</section>SKILLS</a>
 			<h1>|</h1>
-			<a class="navbar-item" href="/blog"><section>2.</section>WORK</a>
+			<a class="navbar-item" href="/resume"><section>2.</section>PROJECTS</a>
 			<h1>|</h1>
-			<a class="navbar-item" href="/resume"><section>3.</section>PROJECTS</a>
+			<a class="navbar-item" href="/resume"><section>3.</section>CONTACT</a>
 			<h1>|</h1>
-			<a class="navbar-item" href="/resume"><section>4.</section>CONTACT</a>
-			<h1>|</h1>
-			<a class="navbar-item" href="/resume"><section>5.</section>RESUME</a>
+			<a class="navbar-item" href="/resume"><section>4.</section>RESUME</a>
 		</div>
 
 		<!-- Mobile burger icon (hidden on desktop) -->

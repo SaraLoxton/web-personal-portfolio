@@ -36,6 +36,7 @@
     flex-direction: column;
     overflow: hidden;
     min-height: 100%;
+    height: 100%;
     border-radius: 1.7rem;
     background: rgba(15, 23, 42, 0.84);
     border: 1px solid rgba(148, 163, 184, 0.14);

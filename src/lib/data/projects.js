@@ -31,5 +31,27 @@ export const featuredProjects = [
     github: 'https://github.com/SaraLoxton/parkrun-project-portfolio',
     image: '/projects/parkrun-project.png',
     alt: 'Preview of Parkrun marketing opportunity analysis charts'
+  },
+  {
+    label: 'Transport Data',
+    title: 'New Zealand Crash Risk Analysis',
+    description:
+      'A scalable analysis of regional crash severity, road conditions, and investment priorities.',
+    stack: ['Python', 'Dask', 'CAS Data'],
+    image: '/projects/crash-analysis.png',
+    alt: 'New Zealand crash analysis visualisation',
+    github: '#',
+    live: '#'
+  },
+  {
+    label: 'GIS Analysis',
+    title: 'Christchurch Flood Exposure',
+    description:
+      'A raster-based assessment of population exposure under multiple urban flood scenarios.',
+    stack: ['ArcGIS Pro', 'Raster Analysis', 'Zonal Statistics'],
+    image: '/projects/flood-analysis.png',
+    alt: 'Christchurch flood exposure map',
+    github: '#',
+    live: '#'
   }
 ];
